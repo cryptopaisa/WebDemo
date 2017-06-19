@@ -1,0 +1,282 @@
+
+body{
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif!important;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: auto;
+}
+img{
+  width:100%;
+}
+/* COMMON CLASSES*/
+.primary-text{
+  color:#56a79a ;
+}
+.primary-background{
+  color:#56a79a ;
+}
+
+/*HEADER*/
+#main-header{
+  border-bottom: 1px solid #56a79a;
+}
+
+
+/*NAVBAR*/
+
+#bs-example-navbar-collapse-1{
+  margin: 0;
+}
+#navbar{
+  text-transform: uppercase;
+}
+
+#navbar li{
+  display: inline;
+  padding-right:0;
+  list-style:none; 
+}
+
+#navbar a{
+  text-decoration: none;
+  color: #888;
+}
+
+#navbar li.current a, #navbar a:hover{
+  color: #56a79a;
+border-bottom: 3px solid #56a79a;
+padding-bottom: 3px;
+}
+
+#navbar li.sign-up{
+  color:#fff;
+  cursor: pointer;
+}
+
+#navbar .abcd{
+  color:#fc6e02;
+}
+
+#top-navbar .fa,.main-logo{
+  font-size: 30px;
+  margin-left: 50px;
+  color: #6f5499;
+  text-shadow:  2 3px 4.7px .3px rgba(0,0,0,.24),0 1px 6.86px .14px rgba(0,0,0,.16)!important;
+}
+
+
+/*SHOWCASE*/
+
+#showcase{
+  background: url('../images/home1.png') no-repeat center center;
+  background-size: cover;
+  border-bottom:1px solid #56a79a;
+  margin-bottom: 30px;
+  margin-top: 50px;
+ }
+
+#showcase .row{
+  height: 400px;
+}
+
+#showcase h1{
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 20px;
+  color: #333;
+  text-shadow:  0 3px 4.7px .3px rgba(0,0,0,.24),0 1px 6.86px .14px rgba(0,0,0,.16)!important;
+
+}
+#showcase p{
+  margin: 0;
+  margin-bottom: 10px;
+  color: #fff;
+    text-shadow:  0 3px 4.7px .3px rgba(0,0,0,.24),0 1px 6.86px .14px rgba(0,0,0,.16)!important;
+}
+
+#showcase button{
+
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #fc6e02;
+    color: #fff;
+    padding: 10px;
+    border: 50px; 
+    margin-left: 20px;
+    border-radius: 5px;
+     opacity: 100;
+    box-shadow: 0 3px 4.7px .3px rgba(0,0,0,.24),0 1px 6.86px .14px rgba(0,0,0,.16)!important;
+}
+
+/*FEATURES*/
+#features h2{
+  font-size: 35px;
+  margin: 0;
+  margin-top: 20px;
+    margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+#features p{
+    color: #888;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+#features .fa{
+  font-size: 60px;
+  color: #56a79a;
+   
+} 
+
+/* INFO */
+#info li{
+ list-style:none; 
+}
+
+#info{
+  background: #fff url('../images/home1.png') no-repeat center center ;
+    background-size: auto;
+  color: #fff;
+    margin-bottom: 20px;
+      border-bottom:1px solid #56a79a;
+        border-top:1px solid #56a79a;
+}
+#info .row{
+  height: 400px;
+}
+
+#info .info-content{
+    background: #333;
+  color: #fff;
+  border-radius: 10px;
+
+  opacity: 0.8;
+
+}
+
+
+/* INFO */
+#mission li{
+ list-style:none; 
+}
+
+#mission{
+  background: #fff url('../images/mission4.jpg') no-repeat center center ;
+    background-size: auto;
+
+  color: #fff;
+    margin-bottom: 20px;
+      border-bottom:1px solid #56a79a;
+        border-top:1px solid #56a79a;
+}
+#mission .row{
+  height: 400px;
+}
+
+#mission .mission-content{
+    background: #56a79a;
+  color: #fff;
+  border-radius: 10px;
+  opacity: 0.8;
+   text-shadow:  0 3px 4.7px .3px rgba(0,0,0,.24),0 1px 6.86px .14px rgba(0,0,0,.16)!important;
+   box-shadow: 0 3px 4.7px .3px rgba(0,0,0,.24),0 1px 6.86px .14px rgba(0,0,0,.16)!important;
+}
+
+/*COMPANY*/
+
+
+#company{
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+#company h4{
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#company ul{
+  list-style: none;
+  line-height: 2em;
+  padding: 0;
+}
+
+#company input[type="text"]{
+  padding: 7px;
+  margin: 0;
+}
+
+#company button{
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    border: 0; 
+    margin: 0;
+}
+/*FOOTER*/
+#footer{
+  background: #56a79a;
+  color: #fff;
+ padding:10px;
+
+}
+
+/* MEDIA Q*/
+@media(max-width:800px){
+  #showcase h1{
+    font-size: 30px;
+  }
+    #showcase .showcase-content{
+    padding: 30px;
+      border-radius: 60px;
+  }
+
+#showcase button{
+  margin-bottom: 10px;
+}
+
+
+}
+
+/*W3SCOOL*/ 
+.button {
+  transition: all 0.5s;
+}
+
+.button:hover{
+
+    background-color:#fc4c01;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.1s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.1s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
